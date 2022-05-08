@@ -12,13 +12,9 @@ class Button extends React.Component {
         return (
 
             <div>
-                <div className='btnclass'>
-                    <button onClick={() => {
-                        this.setState({
-                            headerText: " Now Data is I am invincible"
-                        })
-                    }}>Change State and Rerender</button>
-                </div>
+                <h1>This is an example of how state works. First button is an eg of this.state and second is an
+                    example of this.setState
+                </h1>
 
                 <div className='datadisplayclass'>
                     <h1>{this.state.headerText}</h1>
@@ -34,6 +30,18 @@ class Button extends React.Component {
 
                     }}>Just Change State and See console</button>
                 </div>
+
+
+                <div className='btnclass'>
+                    <button onClick={() => {
+                        this.setState({
+                            headerText: " Now Data is I am invincible"
+                        })
+                    }}>Change State and Rerender</button>
+                </div>
+
+
+
 
 
             </div>

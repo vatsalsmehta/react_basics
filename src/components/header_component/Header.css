@@ -1,0 +1,11 @@
+.head-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.head-image {
+    width: 200px;
+    transition: max-width 1s, min-width 1s;
+}
